@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+	<meta author="JoinApp" />
+	<link rel="stylesheet" href="css/index.css" media="screen">
+</head>
+<body>
+
+<!-- <div id="container">-->
+	<div id="prueba"> boton prueba </div>
+The <picture> element offers a declarative approach towards image resource loading. Web developers will no longer need CSS or JavaScript hacks to handle images in responsive designs. And users benefit from natively-optimized image resource loading—especially important for users on slower mobile internet connections.
+
+Alongside the newer srcset and sizes attributes recently added to <img>, the <picture> element gives web developers more flexibility in specifying image resources. Write clear HTML markup and let the browser do the work of detecting any of the following scenarios, alone or in combination, to support responsive designs and improve web page load times:
+
+Art direction-based selection
+Is this a mobile device held in a portrait orientation or a wide desktop monitor? Load an image that is optimized for the given screen dimensions.
+Device-pixel-ratio-based selection
+Does the device have a high DPI display? Load a higher resolution image.
+Viewport-based selection
+Is the image meant to always fill a fixed proportion of the viewport? Load images relative to the viewport.
+Image format-based selection
+Can the browser support additional image file types that offer performance boosts such as smaller file sizes? Load an alternative image file such as WebP.
+Use for art direction
+
+The most common use of the <picture> element will be for "art direction" in responsive designs. Instead of having one image that is scaled up or down based on the viewport width, multiple images can be designed to more appropriately fill the browser viewport.
+
+one image that is scaled up or down based on the viewport width
+The result of using only one image that is scaled up or down based on the viewport width.
+several different images to more appropriately fill the browser viewport
+Use several different images to more appropriately fill the browser viewport.
+Improve resource loading performance
+
+When using <picture>, or <img> with the srcset and sizes attribute, the browser will only download the image explicitly stated for the matching scenario. This native implementation is compatible with HTML parsers and can take advantage of the browser's image caching and preloading abilities.
+
+View a live demo
+
+It's a fact that the Internet was created to host cat images. Using <picture> we can emulate the amazing ability of cats to adjust to the space given to them no matter how small or large.
+	
+</body>
+</html>
