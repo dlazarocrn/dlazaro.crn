@@ -2,7 +2,6 @@ body{
 	margin:0;
 	font-family: "Raleway";
 	font-size: 25px;
-	
 }
 
 @font-face{
@@ -25,6 +24,31 @@ body{
 	top:0;
 	left:-75%;
 	z-index: 10;
+}
+
+.tanca{
+	width:5%;
+	z-index: 20;
+	position:fixed;
+	top:0;
+	margin-left:70%;
+}
+
+.burguerportada{
+	width:100%;
+	float:left;
+	box-shadow: 0 0 2 0 3px black;
+}
+
+.burguerperfil{
+	border-radius:50%;
+	width:30%;
+	box-shadow: 0 0 3px black;
+	float:left;
+	position:relative;
+	margin-left:35%;
+	margin-top:-16%;
+	
 }
 
 @media only screen and (min-width: 600px)
