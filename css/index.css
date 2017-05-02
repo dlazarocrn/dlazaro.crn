@@ -5,6 +5,10 @@ body{
 	
 }
 
+@font-face{
+	font-family:;
+}
+
 #prueba{
 	height: 100px;
 	width:100%;
@@ -14,7 +18,13 @@ body{
 
 #burguer{
 	width: 75%;
-	height:100%;
+	height:2000px;
+	transition-duration: 1s;
+	background-color: blue;
+	position: fixed;
+	top:0;
+	left:-75%;
+	z-index: 10;
 }
 
 @media only screen and (min-width: 600px)
