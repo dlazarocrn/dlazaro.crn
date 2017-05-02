@@ -15,6 +15,8 @@ body{
 	position:fixed;
 }
 
+/* Aquí empieza el menú hamburguesa*/
+
 #burguer{
 	width: 75%;
 	height:2000px;
@@ -34,26 +36,47 @@ body{
 	margin-left:70%;
 }
 
-.burguerportada{
+.bgportada{
 	width:100%;
+	position:relative;
 	float:left;
-	box-shadow: 0 0 2 0 3px black;
+	box-shadow: 0 0 2 3px black;
 }
 
-.burguerperfil{
+#bgperfil{
+	position:absolute;
+	width:100%;
+	margin-left:5%;
+	margin-top:10%;
+}
+
+.bgimgperfil{
 	border-radius:50%;
-	width:30%;
+	width:20%;
 	box-shadow: 0 0 3px black;
 	float:left;
-	position:relative;
-	margin-left:35%;
-	margin-top:-16%;
-	
 }
+
+.bgnomperfil{
+	float:left;
+	color:white;
+	font-size: 1,5em;
+	text-shadow: 0 0 3px black;
+	margin:5%;
+}
+
+/*Aquí acaba el menú hamburguesa*/
 
 @media only screen and (min-width: 600px)
 {
 	#prueba{
 	height: 150px;
-}
+	}
+
+	.bgnomperfil{
+	float:left;
+	color:white;
+	font-size: 2em;
+	text-shadow: 0 0 3px black;
+	}
 }
