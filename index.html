@@ -10,7 +10,11 @@
 <body>
 
 <!-- <div id="container">-->
-	<div id="prueba" onclick="desplegar()"> boton prueba </div>
+	<div id="barra"> 
+
+		<img id="menuburguer" src="img/menu.svg" onclick="desplegar()">		
+
+	</div>
 
 	<div id="burguer">
 
@@ -26,6 +30,43 @@
 			<p class="bgnomperfil"> Sr. Gatete </p>
 			
 		</div>
+
+		<ul id="bgllista">
+
+			<li class="bgapartat">Activitat</li>
+			<hr/>
+			<li class="bgapartat">Chat</li>
+			<hr/>
+			<li class="bgapartat"><span id="bgcat">Categories</span>
+
+				<img id="bgviscat" class="imgdespl" onclick="visible()" src="img/down.svg">
+				<img id="bginviscat" class="imgdespl" onclick="invisible()" src="img/up.svg">
+
+				<div id="pruebaloca">
+
+					<ul>
+
+						<li id="bgcatlist">Zona verd</li>
+						<li id="bgcatlist">Zona negoci</li>
+						<li id="bgcatlist">Zona tecnologia</li>
+						<li id="bgcatlist">Zona multimèdia</li>
+						<li id="bgcatlist">Zona moda</li>
+						<li id="bgcatlist">Zona altres</li>
+
+					</ul>
+
+				</div>
+
+			</li>
+			<hr/>
+			<li class="bgapartat">Projectes</li>
+			<hr/>
+			<li class="bgapartat">Guardats</li>
+			<hr/>
+			<li class="bgapartat">Informació</li>
+			<hr/>
+
+		</ul>
 
 	</div>
 	
