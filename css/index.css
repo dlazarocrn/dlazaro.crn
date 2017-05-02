@@ -32,6 +32,7 @@ body{
 	top:0;
 	left:-75%;
 	z-index: 10;
+	box-shadow: 0 0 5px black;
 }
 
 .tanca{
@@ -46,7 +47,7 @@ body{
 	width:100%;
 	position:relative;
 	float:left;
-	box-shadow: 0 0 2 3px black;
+	
 }
 
 #bgperfil{
