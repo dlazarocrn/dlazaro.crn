@@ -3,6 +3,7 @@ body{
 	font-family: "Raleway";
 	font-size: 25px;
 	color:white;
+	background-color: rgba(166, 157, 145, 0.3);
 }
 
 @font-face{
@@ -48,7 +49,7 @@ body{
 	width: 75%;
 	height:2000px;
 	transition-duration: 1s;
-	background-color: #BFAE8F;
+	background-color: #A69D91;
 	position: fixed;
 	top:0;
 	left:-75%;
@@ -137,40 +138,76 @@ hr{
 	float:left;
 	width: 90%;
 	height:300px;
-	background-image: url(../img/gat800.jpg);
 	background-size: 100%;
 	margin: 2.5% 5% ;
 	border-radius:10px;
 }
 
 
-.primera{
-	float:left;
-	width: 90%;
-	height:300px;
-	background-image: url(../img/gat800.jpg);
-	background-size: 100%;
-	margin: 150px 5% 2.5% 5%;
-	border-radius:10px;
-}
+		.primera{
+			float:left;
+			width: 90%;
+			height:300px;
+			background-image: url(../img/gat800.jpg);
+			background-size: 100%;
+			margin: 150px 5% 2.5% 5%;
+			border-radius:10px;
+		}
+
+		.imgfons02{
+			background-image: url(../img/gat800.jpg);
+		}
+
+		.imgfons03{
+			background-image: url(../img/gat800.jpg);
+		}
+
+		.imgfons04{
+			background-image: url(../img/gat800.jpg);
+		}
+
+		.imgfons05{
+			background-image: url(../img/gat800.jpg);
+		}
+
+
 
 #cosproj{
 	width:100%;
 	height:300px;
-	background-color: rgba(0, 0, 255, 0.3);
 	border-radius:10px;
 }
 
+		.color01{
+			background-color: rgba(0, 0, 255, 0.3);
+		}
+
+		.color02{
+			background-color: rgba(0, 255, 0, 0.3);
+		}
+
+		.color03{
+			background-color: rgba(255, 0, 0, 0.3);
+		}
+
+		.color04{
+			background-color: rgba(255, 0, 255, 0.3);
+		}
+
+		.color05{
+			background-color: rgba(0, 255, 255, 0.3);
+		}
+
 #titprojecte{
 	float:left;
-	margin-top:20%;
+	margin-top:150px;
 	margin-left:5%;
 	margin-bottom:0;
 }
 
 #descprojecte{
 	float:none;
-	margin-top:25%;
+	margin-top:180px;
 	margin-left:5%;
 }
 
