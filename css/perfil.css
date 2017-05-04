@@ -1,0 +1,57 @@
+html, body, h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+	font-family: "Raleway";
+	font-size: 25px;
+	color:white;
+}
+
+body{
+	background-color: rgba(166, 157, 145, 0.3);
+}
+
+@font-face{
+	font-family:;
+}
+
+/* Barra Superior */
+
+#barra{
+	height: 100px;
+	width:100%;
+	background-color: #730C0F;
+	position:fixed;
+}
+
+#back{
+	float:left;
+	width:50px;
+	height: 50px;
+	margin:25px;
+}
+
+#titpag{
+	float:left;
+	font-size:150%;
+	color:white;
+	height:100px;
+	margin-top:25px;
+}
+
+#config{
+	float:right;
+	width:50px;
+	height: 50px;
+	margin:25px;
+}
+
+/* Fin Barra*/
+
+/* Cos */
+
+#imgportada{
+	margin-top:100px;
+	width: 100%;
+	box-shadow: 0 0 5 black;
+}
+
+/* Final del cos*/
