@@ -20,6 +20,7 @@ body{
 	width:100%;
 	background-color: #730C0F;
 	position:fixed;
+	z-index:1000;
 }
 
 #back{
@@ -51,7 +52,54 @@ body{
 #imgportada{
 	margin-top:100px;
 	width: 100%;
-	box-shadow: 0 0 5 black;
+	box-shadow: 0px 0px 5px grey;
+	float:left;
 }
+
+#infoperfil{
+	float:left;
+	margin-top:-6%;
+	width:100%;
+
+}
+
+#imgperfil{
+	float:left;
+	width:35%;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 50%;
+	margin-top:0;
+}
+
+#nomperfil{
+	float:left;
+	margin-top:30%;
+	color:black;
+}
+
+#valoracions{
+	float:left;
+	width:100%;
+	margin-top:40%;
+	margin-left:20%;
+	list-style:none;
+	overflow:hidden;
+}
+
+
+#clip{
+	float:left;
+	width:10%;
+	height:10%;
+	display:block;
+}
+
+#clipcolor01, #clipcolor02, #clipcolor03, #clipcolor04, #clipcolor05{
+	display:none;
+}
+
+#clipgris01, 
+
+
 
 /* Final del cos*/
