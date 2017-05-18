@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+	<meta charset="UTF-8">
+	<title>Karen V.</title>
+	<meta author="JoinApp" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="../../css/perfil.css" media="screen">
+	<script language="javascript" type="text/javascript" src="../../js/perfil.js"></script>
+</head>
+<body>
+
+<!-- Barra superior -->
+	<div id="barra" class="w3-display-container"> 
+
+		<a href="../mur.html"> <img id="back" class="w3-left" src="../../img/back.svg"> </a>
+
+		<h1 id="titpag" class="centro">Karen Vera</h1>
+
+	</div>
+
+<!-- Fin Barra Superior -->
+
+<!-- Cos -->
+
+
+
+	<img id="imgportada" src="../../img/portada/7.jpg">
+
+	<div id="container">
+
+	<div id="infoperfil" ">
+
+		<img id="imgperfil" src="../../img/perfil/7.png">
+
+		<h1 id="nomperfil"> Karen Vera </h1>
+
+		<ul id="valoracions">
+
+			<li id="clip">
+
+				<img id="clipcolor01" src="../../img/clipy.svg" onclick="invisible01()">
+				<img id="clipgris01" src="../../img/clipb.svg" onclick="visible01()">
+				
+			</li>
+
+			<li id="clip">
+
+				<img id="clipcolor02" src="../../img/clipy.svg" onclick="invisible02()">
+				<img id="clipgris02" src="../../img/clipb.svg" onclick="visible02()">
+				
+			</li>
+
+			<li id="clip">
+
+				<img id="clipcolor03" src="../../img/clipy.svg" onclick="invisible03()">
+				<img id="clipgris03" src="../../img/clipb.svg" onclick="visible03()">
+				
+			</li>
+
+			<li id="clip">
+
+				<img id="clipcolor04" src="../../img/clipy.svg" onclick="invisible04()">
+				<img id="clipgris04" src="../../img/clipb.svg" onclick="visible04()">
+				
+			</li>
+
+			<li id="clip">
+
+				<img id="clipcolor05" src="../../img/clipy.svg" onclick="invisible05()">
+				<img id="clipgris05" src="../../img/clipb.svg" onclick="visible05()">
+				
+			</li>
+
+		</ul>
+
+	</div>
+
+	<div id="opiniones" > 
+
+			<div id="despval">
+
+				<p id="opval" onclick="valvis()">Valoracions ▼ </p>
+
+				<div id="valdesp">
+
+					<a href="manolo.html"><img id="perval" src="../../img/perfil/3.png">
+					
+					<h2 id="nombre"> Manolo Hermosín </h2></a>
+
+					<hr/>
+
+					<p id="valoracion">Ha estat tot un plaer treballar amb la Karen, un bon rollo mortal i estaría encantat de tornar a repetir una sessió fotográfica amb ella, i el que surgeixi. 4 clips per ella, ja que no ha estat del tot completa ;)</p>
+
+					<hr id="separador" />
+
+					<br/>
+
+					<a href="josep.html"><img id="perval" src="../../img/perfil/8.png">
+					
+					<h2 id="nombre"> Josep Aprovat </h2></a>
+
+					<hr />
+
+					<p id="valoracion">M'ha agradat molt treballar amb ella, és un crack amb la maquetació. 5 clips per ell!!
+					</p>
+
+					<hr id="separador" />
+
+					<input id="introinfo" type="text" name="Movil" value="Deixa aqui la teva valoració." onclick="this.value=''; this.onclick=''">
+
+					<div id="send" onclick="this.value=''; this.onclick=''">
+
+						<p>Enviar valoració</p>
+
+					</div>
+
+					<p id="opval" onclick="valinv()">Cerrar X  </p>
+
+				</div>
+
+			</div>
+
+			<div id="apartats">
+
+				<h2 id="nomap" onclick="displayinfo()">Info</h2>
+
+				<h2 id="nomsep">|</h2>
+
+				<h2 id="nomap" onclick="displayfinal()"">Finalitzats</h2>
+
+				<h2 id="nomsep">|</h2>
+
+				<h2 id="nomap" onclick="displayact()"">Actius</h2>
+
+			</div>
+
+			<div id="info">
+
+				<p id="inforperf">
+
+				Em dic Karen Vera, i soc estudiant d'Arts Gràfiques a l'IES Esteve Terrades. M'agrada la fotografia. Soc un fan de tot i vull que la meva feina algun dia sigui reconeguida, per això, faig servir aquesta aplicació, per agafar experiencia i engegar els meus projectes personals amb la colaboració de diferents persones i participar en projectes d'altres persones.
+
+				</p>
+
+				<p id="inforperf">
+					
+				Per contactar amb mi podeu contactar-me via xat a l'app, o a les meves xarxes socials que podeu trobar més abaix!
+
+				</p>
+
+			</div>
+
+			<div id="final">
+
+				<div  id="projecte" class="imgfons02 izqda">
+
+					<div id="cosproj" class="color02 ">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+
+						<br/>
+
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+				<div  id="projecte" class="imgfons03 drcha">
+
+					<div id="cosproj" class="color03">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+						<br/>
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+				<div  id="projecte" class="imgfons04 izqda">
+
+					<div id="cosproj" class="color04">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+						<br/>
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+
+				<div  id="projecte" class="imgfons05 drcha">
+
+					<div id="cosproj" class="color05">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+						<br/>
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="actius">
+
+				<div  id="projecte" class="imgfons06 izqda">
+
+					<div id="cosproj" class="color02">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+
+						<br/>
+
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+				<div  id="projecte" class="imgfons07 drcha">
+
+					<div id="cosproj" class="color03">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+						<br/>
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+				<div  id="projecte" class="imgfons08 izqda">
+
+					<div id="cosproj" class="color04">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+						<br/>
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+
+				<div  id="projecte" class="imgfons09 drcha">
+
+					<div id="cosproj" class="color05">
+
+						<h1 id="titprojecte">Nom projecte</h1>
+						<br/>
+						<h3 id="descprojecte">Projecte de cuina sense transgenics i vegetariana</h3>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="contact">
+
+				<h2 id="cont">Contacta'm</h2>
+				<hr/>
+				<img id="rrss" src="../../img/instagram.svg">
+				<img id="rrss" src="../../img/twitter.svg">
+				<img id="rrss" src="../../img/facebook.svg">
+				<img id="rrss" src="../../img/email.svg">
+
+			</div>
+
+
+	</div>
+</div>
+
+<!-- Final Cos -->
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+@font-face{
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Raleway";
+}
+
+body{
+	margin:0;
+	font-family: "Raleway";
+	font-size: 1em;
+	color:white;
+	background-color: rgba(166, 157, 145, 0.3);
+}
+
+@font-face{
+	font-family:;
+}
+
+h1{
+	font-size:1.5em;
+}
+
+/* Cos */
+
+#container{
+	width:90%;
+	margin:50% 5% 0% 5%;
+}
+
+#logo{
+	margin-top:-65%;
+	width: 100%;
+}
+
+#logo2{
+	margin-top:20%;
+	width: 100%;
+}
+
+#rrss{
+	width:47.5%;
+	text-align:center;
+	padding:2%;
+	border-radius: 10px;
+}
+
+.fb{
+	background-color: rgb(39, 51, 115);
+	margin:10% 2.5% 2.5% 0%;
+	float:left;
+}
+
+.gmail{
+	background-color: rgb(186, 36, 36);
+	margin: 10% 0% 2.5% 2.5%;
+	float:left;
+}
+
+#iniciar{
+	clear:both;
+	width:100%;
+	background-color: rgb(175, 37, 20);
+	border-radius: 10px;
+	padding:2%;
+	text-align:center;
+}
+
+#introinfo{
+	background-color:rgb(228, 225, 222);
+	width:100%;
+	height:35px;
+	border:0;
+	color:black;
+	text-align:center;
+}
+
+a{
+	text-decoration: none;
+}
+
+@media screen and (orientation:landscape) { 
+
+	#container{
+	width:90%;
+	margin:8% 5% 0% 5%;
+}
+
+}

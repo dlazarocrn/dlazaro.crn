@@ -30,7 +30,7 @@ body{
 hr{
 	color:grey;
 	background-color: grey;
-	height:2px;
+	height:5px;
 	clear:both;
 	width:80%;
 	margin:0% 10% 0% 10%;
@@ -40,17 +40,6 @@ h1{
 	font-size:1.5em;
 }
 
-h2{
-	font-size:1.25em;
-}
-
-h3{
-	font-size:1em;
-}
-
-a{
-	text-decoration: none;
-}
 
 /* Barra Superior */
 
@@ -86,120 +75,14 @@ a{
 	margin-top:35px;
 }
 
-#config{
-	float:right;
-	widows: 25px;
-	height: 25px;
-	margin: 12px 12px 0px 0px;
-}
-
 #container{
 	width:90%;
-	margin:0% 5% 0% 5%;
-}
-
-#config{
-	float:right;
-	widows: 25px;
-	height: 25px;
-	margin: 12px 12px 0px 0px;
+	margin:15% 5% 0% 5%;
 }
 
 /* Fin Barra*/
 
 /* Cos */
-
-#imgportada{
-	width: 100%;
-	margin-top:10%;
-	box-shadow: 0px 0px 5px grey;
-}
-
-#infoperfil{
-	width:80%;
-	margin:0% 10% 0% 10%;
-}
-
-#imgperfil{
-	width:30%;
-	box-shadow: 0px 0px 10px black;
-	border-radius: 50%;
-	margin:-25% 35% 0% 35%;
-}
-
-#nomperfil{
-	margin-top:30%;
-	text-align:center;
-	margin:0 auto;
-}
-
-#valoracions{
-	list-style:none;
-	overflow:hidden;
-	padding:0;
-	margin:0% 25% 0% 25%;
-	height:;
-}
-
-#clip{
-	float:left;
-	width:20%;
-	display:block;
-	margin:0;
-}
-
-#clipcolor01, #clipcolor02, #clipcolor03, #clipcolor04, #clipcolor05{
-	display:none;
-}
-
-#opiniones{
-	width:100%;
-}
-
-.opdespl{
-	float:left;
-	width: 10%;
-	background-color:black;
-	margin-top:5%;
-}
-
-#opinv{
-	display:none;
-	overflow:hidden;
-}
-
-#opval{
-	text-align:center;
-}
-
-#despval{
-	float:none;
-	overflow:hidden;
-}
-
-#perval{
-	width:10%;
-	border-radius: 50%;
-	float:left;
-	margin-top:-2.5%;
-}
-
-#valdesp{
-	width:80%;
-	margin:0% 10% 0% 10%;
-	display:none;
-}
-
-#nombre{
-	float:left;
-	margin-top:-2.5%;
-}
-
-#valoracion{
-	text-align:center;
-	margin-top:5%;
-	clear:both;
-}
 
 #separador{
 	color:#000;
@@ -210,23 +93,6 @@ a{
 	margin:0;
 }
 
-#introinfo{
-	margin-top:5%;
-	background-color:rgb(228, 225, 222);
-	width:100%;
-	border:0;
-	color:black;
-	text-align:center;
-}
-
-#send{
-	color:white;
-	width:50%;
-	margin:0% 25% 0% 25%;
-	background-color: rgb(70, 96, 33);
-	border-radius: 5px;
-	text-align:center;
-}
 
 #separador2{
 	color:#000;
@@ -235,20 +101,6 @@ a{
 	clear:both;
 	width:100%;
 	margin:0;
-}
-
-#nomap{
-	float:left;
-	width:30%;
-	text-align:center;
-	margin-bottom:5%;
-}
-
-#participants{
-	float:left;
-	width:47.5%;
-	margin-bottom:5%;
-	text-align:center;
 }
 
 #nomsep{
@@ -264,12 +116,10 @@ a{
 }
 
 #final{
-	display:none;
+
 }
 
-#actius{
-	display:none;
-}
+
 
 /* Finalitzats */
 
@@ -283,6 +133,15 @@ a{
 	color:white;
 }
 
+.izq{
+	margin:2.5% 2.5% 0% 0%;
+}
+
+.dcha{
+	margin: 2.5% 0% 2.5% 0%;
+}
+
+/* Finalitzats */
 
 		.imgfons01{
 			background-image: url(../img/portada_/zaltres02.jpg);
@@ -332,8 +191,6 @@ a{
 			background-image: url(../img/portada_/zverda02.jpg);
 		}
 
-
-
 #cosproj{
 	width:100%;
 	height:150px;
@@ -364,26 +221,16 @@ a{
 			background-color: rgba(81, 75, 23, 0.6);
 		}
 
-.drcha{
-	margin-left:2.5%;
-	margin-top:2.5%;
-}
-
-.izqda{
-	margin-right:2.5%;
-	margin-top:2.5%;
-}
-
 #titprojecte{
 	float:left;
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:5%;
 	margin-bottom:0;
 }
 
 #descprojecte{
 	float:none;
-	margin-top:30px;
+	margin-top:25px;
 	margin-left:5%;
 	font-size:1em;
 }
@@ -396,6 +243,7 @@ a{
 	width: 10%;
 	border-radius:50%;
 	background-size: cover;
+	background-color:cyan;
 	margin: 5% 7% 5% 7%;
 }
 
@@ -403,8 +251,8 @@ a{
 	float:left;
 	text-align:center;
 	width:47.5%;
-	height:50px;
-	padding:15px;
+	height:100px;
+	padding:30px;
 	color:white;
 }
 
@@ -420,12 +268,20 @@ a{
 	margin: 2.5% 0% 2.5% 2.5%;
 }
 
-#solicituts{
-	background-color: rgb(244, 152, 17);
-	border-radius: 10px;
-	margin: 2.5% 0% 2.5% 0%;
-	text-align:center;
-	color:white;
+#nouproj{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:100px;
+	height:100px;
+	background-color:rgb(228,82,49);
+	background-image: url(../img/anadir.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius:50px;
+	margin:20px;
+	box-shadow: 0 0 3px black;
 }
 
 /* Final del cos*/
@@ -434,7 +290,7 @@ a{
 
 	#container{
 	width:90%;
-	margin:5% 5% 0% 5%;
+	margin:8% 5% 0% 5%;
 }
 
 }
