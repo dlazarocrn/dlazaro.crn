@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+	<meta charset="UTF-8">
+	<title>Editar Projete</title>
+	<meta author="JoinApp" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="../css/nouprojecte.css" media="screen">
+	<script language="javascript" type="text/javascript" src="../js/nouprojecte.js"></script>
+</head>
+<body>
+
+	<div id="barra" class="w3-display-container"> 
+
+		<a href="projectecarlos.html"> <img id="back" class="w3-left" src="../img/back.svg"> </a>
+
+		<h1 id="titpag" class="centro">Editar Projecte</h1>
+
+	</div>
+
+
+<!-- Cos -->
+
+<div id="container">
+
+	<div id="content">
+
+		<ul id="partes">
+
+			<li><input id="introinfo" type="text" name="Nom" value="Nom" onclick="this.value=''; this.onclick=''"></li>
+			<hr/>
+			<li><textarea id="descripcio" name="DescCurta" onclick="this.value=''; this.onclick=''">Escriu aqui una breu descripció del projecte</textarea></li>
+			<hr/>
+			<li><textarea id="descripcio" name="DescLlarga" onclick="this.value=''; this.onclick=''">Escriu aqui la descripció completa del projecte</textarea></li>
+			<hr/>
+			<li><input id="introinfo" type="text" name="Loc" value="Nº participants" onclick="this.value=''; this.onclick=''"></li>
+			<hr/>
+			<li><input id="introinfo" type="text" name="Movil" value="Ubicació" onclick="this.value=''; this.onclick=''"></li>
+			<hr/>
+			<li><input id="introinfo" type="text" name="mail" value="E-mail" onclick="this.value=''; this.onclick=''"></li>
+			<hr/>
+			<li>Data inici</li>
+			<input id="data" type="date" name="fecha">
+			<li>Data finalització</li>
+			<input id="data" type="date" name="fecha">
+
+		</ul>
+
+		</div>
+
+		<div id="descrip">
+
+			<h2 id="descgust">Categories</h2>
+			<hr/>
+			<ul id="categor">
+				
+				<li  id="zones">Zona verd 
+
+					<img id="cuaddes01" src="../img/cuadro.svg" onclick="seleccionat01()"> 
+					<img id="cuadsel01" src="../img/cuadroselect.svg" onclick="desseleccionat01()">
+
+				</li>
+
+				<li id="zones">Zona negoci 
+
+					<img id="cuaddes02" src="../img/cuadro.svg" onclick="seleccionat02()"> 
+					<img id="cuadsel02" src="../img/cuadroselect.svg" onclick="desseleccionat02()">
+
+				</li>
+
+				<li id="zones">Zona tecnologia 
+
+					<img id="cuaddes03" src="../img/cuadro.svg" onclick="seleccionat03()">
+					<img id="cuadsel03" src="../img/cuadroselect.svg" onclick="desseleccionat03()">
+
+				</li>
+
+				<li id="zones">Zona multimèdia
+
+					<img id="cuaddes04" src="../img/cuadro.svg" onclick="seleccionat04()">
+					<img id="cuadsel04" src="../img/cuadroselect.svg" onclick="desseleccionat04()">
+				</li>
+
+				<li id="zones">Zona moda 
+
+					<img id="cuaddes05" src="../img/cuadro.svg" onclick="seleccionat05()"> 
+
+					<img id="cuadsel05" src="../img/cuadroselect.svg" onclick="desseleccionat05()">
+
+				</li>
+
+				<li id="zones">Zona altres
+
+					<img id="cuaddes06" src="../img/cuadro.svg" onclick="seleccionat06()">
+					<img id="cuadsel06" src="../img/cuadroselect.svg" onclick="desseleccionat06()">
+
+				</li>
+							
+
+			</ul>
+
+			</div>
+
+			<div id="etiquetes">
+
+			<h2 id="etiqgust">Etiquetes</h2>
+			<hr/>
+			<textarea id="eti" name="Etiquetes" onclick="this.value=''; this.onclick=''">Introdueix qui les etiquetes que descriguin el teu projecte amb un #hastag</textarea>
+
+			<div id="verif">
+
+				<p>Fet</p>
+
+			</div>
+
+			</div>
+ 
+
+
+		</div>	
+
+
+	</div>
+
+</div>
+
+<!-- Final Cos -->
+
+</body>
+</html>

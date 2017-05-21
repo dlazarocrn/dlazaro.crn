@@ -1,0 +1,440 @@
+@font-face{
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Raleway";
+}
+
+body{
+	position: absolute;
+	height: 100%;
+	top:0;
+	left: 0;
+	bottom:0;
+	right:0;
+	margin:0;
+	padding:0;
+	background-color: #ffffff;
+	margin:0;
+	font-size: 1em;
+	color:black;
+	position:center;
+}
+
+@font-face{
+	font-family:;
+}
+ 
+hr{
+	color:grey;
+	background-color: grey;
+	height:2px;
+	clear:both;
+	width:80%;
+	margin:0% 10% 0% 10%;
+}
+
+h1{
+	font-size:1.5em;
+}
+
+h2{
+	font-size:1.25em;
+}
+
+h3{
+	font-size:1em;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* Barra Superior */
+
+.centro{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+#barra{
+	height: 50px;
+	width:100%;
+	background-color: #730C0F;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+
+#back{
+	float:left;
+	width:25px;
+	height: 25px;
+	margin:12px 0px 0px 12px;
+}
+
+#titpag{
+	float:left;
+	color:white;
+	height:100px;
+	margin-top:35px;
+}
+
+#config{
+	float:right;
+	widows: 25px;
+	height: 25px;
+	margin: 12px 12px 0px 0px;
+}
+
+#container{
+	width:90%;
+	margin:0% 5% 0% 5%;
+}
+
+#config{
+	float:right;
+	widows: 25px;
+	height: 25px;
+	margin: 12px 12px 0px 0px;
+}
+
+/* Fin Barra*/
+
+/* Cos */
+
+#imgportada{
+	width: 100%;
+	margin-top:10%;
+	box-shadow: 0px 0px 5px grey;
+}
+
+#infoperfil{
+	width:80%;
+	margin:0% 10% 0% 10%;
+}
+
+#imgperfil{
+	width:30%;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 50%;
+	margin:-25% 35% 0% 35%;
+}
+
+#nomperfil{
+	margin-top:30%;
+	text-align:center;
+	margin:0 auto;
+}
+
+#valoracions{
+	list-style:none;
+	overflow:hidden;
+	padding:0;
+	margin:0% 25% 0% 25%;
+	height:;
+}
+
+#clip{
+	float:left;
+	width:20%;
+	display:block;
+	margin:0;
+}
+
+#clipcolor01, #clipcolor02, #clipcolor03, #clipcolor04, #clipcolor05{
+	display:none;
+}
+
+#opiniones{
+	width:100%;
+}
+
+.opdespl{
+	float:left;
+	width: 10%;
+	background-color:black;
+	margin-top:5%;
+}
+
+#opinv{
+	display:none;
+	overflow:hidden;
+}
+
+#opval{
+	text-align:center;
+}
+
+#despval{
+	float:none;
+	overflow:hidden;
+}
+
+#perval{
+	width:10%;
+	border-radius: 50%;
+	float:left;
+	margin-top:-2.5%;
+}
+
+#valdesp{
+	width:80%;
+	margin:0% 10% 0% 10%;
+	display:none;
+}
+
+#nombre{
+	float:left;
+	margin-top:-2.5%;
+}
+
+#valoracion{
+	text-align:center;
+	margin-top:5%;
+	clear:both;
+}
+
+#separador{
+	color:#000;
+	background-color: #000;
+	height:2px;
+	clear:both;
+	width:100%;
+	margin:0;
+}
+
+#introinfo{
+	margin-top:5%;
+	background-color:rgb(228, 225, 222);
+	width:100%;
+	border:0;
+	color:black;
+	text-align:center;
+}
+
+#send{
+	color:white;
+	width:50%;
+	margin:0% 25% 0% 25%;
+	background-color: rgb(70, 96, 33);
+	border-radius: 5px;
+	text-align:center;
+}
+
+#separador2{
+	color:#000;
+	background-color: #aaa;
+	height:2px;
+	clear:both;
+	width:100%;
+	margin:0;
+}
+
+#nomap{
+	float:left;
+	width:30%;
+	text-align:center;
+	margin-bottom:5%;
+}
+
+#participants{
+	float:left;
+	width:47.5%;
+	margin-bottom:5%;
+	text-align:center;
+}
+
+#nomsep{
+	float:left;
+	text-align:center;
+	width:5%;
+	color:grey;
+}
+
+#info{
+	text-align:center;
+	margin-top:10%;
+}
+
+#final{
+	display:none;
+}
+
+#actius{
+	display:none;
+}
+
+/* Finalitzats */
+
+#projecte{
+	float:left;
+	width: 47.5%;
+	height:150px;
+	background-size: cover;
+	background-position: center;
+	border-radius:10px;
+	color:white;
+}
+
+
+		.imgfons01{
+			background-image: url(../img/portada_/zaltres02.jpg);
+		}
+
+		.imgfons02{
+			background-image: url(../img/portada_/zaltres01.jpg);
+		}
+
+		.imgfons03{
+			background-image: url(../img/portada_/zmoda01.jpg);
+		}
+
+		.imgfons04{
+			background-image: url(../img/portada_/zmoda02.jpg);
+		}
+
+		.imgfons05{
+			background-image: url(../img/portada_/zmultimedia01.jpg);
+		}
+
+		.imgfons06{
+			background-image: url(../img/portada_/zmultimedia02.jpg);
+		}
+
+		.imgfons07{
+			background-image: url(../img/portada_/znegoci01.jpg);
+		}
+
+		.imgfons08{
+			background-image: url(../img/portada_/znegoci02.jpg);
+		}
+
+		.imgfons09{
+			background-image: url(../img/portada_/ztecno01.jpg);
+		}
+
+		.imgfons10{
+			background-image: url(../img/portada_/ztecno02.jpg);
+		}
+
+		.imgfons11{
+			background-image: url(../img/portada_/zverda01.jpg);
+		}
+
+		.imgfons12{
+			background-image: url(../img/portada_/zverda02.jpg);
+		}
+
+
+
+#cosproj{
+	width:100%;
+	height:150px;
+	border-radius:10px;
+}
+
+		.color01{
+			background-color: rgba(134, 23, 16, 0.6);
+		}
+
+		.color02{
+			background-color: rgba(119, 18, 49, 0.6);
+		}
+
+		.color03{
+			background-color: rgba(6, 136, 162, 0.6);
+		}
+
+		.color04{
+			background-color: rgba(134, 23, 16, 0.6);
+		}
+
+		.color05{
+			background-color: rgba(28, 49, 58, 0.6);
+		}
+
+		.color06{
+			background-color: rgba(81, 75, 23, 0.6);
+		}
+
+.drcha{
+	margin-left:2.5%;
+	margin-top:2.5%;
+}
+
+.izqda{
+	margin-right:2.5%;
+	margin-top:2.5%;
+}
+
+#titprojecte{
+	float:left;
+	margin-top:20px;
+	margin-left:5%;
+	margin-bottom:0;
+}
+
+#descprojecte{
+	float:none;
+	margin-top:30px;
+	margin-left:5%;
+	font-size:1em;
+}
+
+#cont{
+	text-align: center;
+}
+
+#rrss{
+	width: 10%;
+	border-radius:50%;
+	background-size: cover;
+	margin: 5% 7% 5% 7%;
+}
+
+#unirchat{
+	float:left;
+	text-align:center;
+	width:47.5%;
+	height:50px;
+	padding:15px;
+	color:white;
+}
+
+.xat{
+	background-color: rgb(244, 152, 17);
+	border-radius: 10px 0 0 10px;
+	margin: 2.5% 2.5% 2.5% 0%;
+}
+
+.unir{
+	background-color: rgb(228, 82, 49);
+	border-radius: 0 10px 10px 0;
+	margin: 2.5% 0% 2.5% 2.5%;
+}
+
+#solicituts{
+	background-color: rgb(244, 152, 17);
+	border-radius: 10px;
+	margin: 2.5% 0% 2.5% 0%;
+	text-align:center;
+	color:white;
+}
+
+/* Final del cos*/
+
+@media screen and (orientation:landscape) { 
+
+	#container{
+	width:90%;
+	margin:5% 5% 0% 5%;
+}
+
+}

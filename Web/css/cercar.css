@@ -1,0 +1,233 @@
+@font-face{
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Raleway";
+}
+
+body{
+	margin:0;
+	font-family: "Raleway";
+	font-size: 1em;
+	color:white;
+	background-color: rgba(166, 157, 145, 0.3);
+}
+
+@font-face{
+	font-family:;
+}
+
+h1{
+	font-size:1.5em;
+}
+
+h2{
+	font-size:1.25em;
+}
+/* Barra Superior */
+
+.centro{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+#barra{
+	height: 50px;
+	width:100%;
+	background-color: #730C0F;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+
+#back{
+	float:left;
+	width:25px;
+	height: 25px;
+	margin:12px 0px 0px 12px;
+}
+
+#titpag{
+	float:left;
+	color:white;
+	height:100px;
+	margin-top:35px;
+}
+
+#config{
+	float:right;
+	widows: 25px;
+	height: 25px;
+	margin: 12px 12px 0px 0px;
+}
+
+/* Fin Barra*/
+
+/* Cos */
+
+#container{
+	width:90%;
+	margin:15% 5% 0% 5%;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+#partes{
+	list-style: none;
+	width:80%;
+	margin: 10% 10% 0% 10%;
+	color:black;
+	text-align:center;
+}
+
+li{
+	color:black;
+	width: 100%;
+	margin: 3% 0%;
+	padding:0;
+}
+
+hr{
+	margin:-10px 0px 0px 0px;
+	padding:0;
+	width:100%;
+	border: 2px solid #ffffff;
+}
+
+#introinfo{
+	background-color:rgb(228, 225, 222);
+	width:100%;
+	border:0;
+	color:black;
+	text-align:center;
+}
+
+#categories{
+	width:80%;
+	margin: 2.5% 10% 0% 10%;
+}
+
+#descrip, #etiquetes{
+	width:80%;
+	margin: 2.5% 10% 0% 10%;
+	text-align:center;
+	color:black;
+}
+
+#descgust, #etiqgust{
+	margin: 8% 0% 0% 0%;
+}
+
+#desccurta{
+	margin: 0px;
+	width:100%;
+	text-align:center;
+	background-color:rgb(228, 225, 222);
+	border:0;
+	padding:0;
+}
+
+#descripcio{
+	margin: 0px;
+	height:50px;
+	width:100%;
+	text-align:center;
+	background-color:rgb(228, 225, 222);
+	border: 0;
+	padding:0;
+}
+
+#verif{
+	color:white;
+	background-color: rgb(70, 96, 33);
+	border-radius: 5px;
+}
+
+#data{
+	margin-top:-2%;
+	text-align:center;
+	background-color:rgb(228, 82, 49);
+	border:0;
+	color:white;
+}
+
+#categor{
+	list-style: none;
+	text-align: left;
+}
+
+#zones{
+	height:20%;
+	width:100%;
+	overflow:none;
+	float:none;
+	margin: 5% 0% 5% 0%;
+}
+
+#cuaddes01, #cuaddes02, #cuaddes03, #cuaddes04, #cuaddes05, #cuaddes06{
+	height:100%;
+	width:8%;
+	float:right;
+}
+
+#cuadsel01, #cuadsel02, #cuadsel03, #cuadsel04, #cuadsel05, #cuadsel06{
+	/*height:100%;*/
+	width:8%;
+	float:right;
+	display:none;
+}
+
+#eti{
+	margin: 2% 0% 2% 0%;
+	height:90px;
+	width:100%;
+	text-align:center;
+	background-color:rgb(228, 82, 49);
+	color:white;
+	border: 0;
+	padding:5px;
+}
+
+		.color01{
+			background-color: rgba(134, 23, 16, 0.6);
+		}
+
+		.color02{
+			background-color: rgba(119, 18, 49, 0.6);
+		}
+
+		.color03{
+			background-color: rgba(6, 136, 162, 0.6);
+		}
+
+		.color04{
+			background-color: rgba(134, 23, 16, 0.6);
+		}
+
+		.color05{
+			background-color: rgba(28, 49, 58, 0.6);
+		}
+
+		.color06{
+			background-color: rgba(81, 75, 23, 0.6);
+		}
+
+/* Final del Cos */
+@media screen and (orientation:landscape) { 
+
+	#container{
+	width:90%;
+	margin:8% 5% 0% 5%;
+}
+
+}

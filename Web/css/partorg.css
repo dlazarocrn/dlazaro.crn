@@ -1,0 +1,296 @@
+@font-face{
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Raleway";
+}
+
+body{
+	position: absolute;
+	height: 100%;
+	top:0;
+	left: 0;
+	bottom:0;
+	right:0;
+	margin:0;
+	padding:0;
+	background-color: #ffffff;
+	margin:0;
+	font-size: 1em;
+	color:black;
+	position:center;
+}
+
+@font-face{
+	font-family:;
+}
+ 
+hr{
+	color:grey;
+	background-color: grey;
+	height:5px;
+	clear:both;
+	width:80%;
+	margin:0% 10% 0% 10%;
+}
+
+h1{
+	font-size:1.5em;
+}
+
+
+/* Barra Superior */
+
+.centro{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+#barra{
+	height: 50px;
+	width:100%;
+	background-color: #730C0F;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+
+#back{
+	float:left;
+	width:25px;
+	height: 25px;
+	margin:12px 0px 0px 12px;
+}
+
+#titpag{
+	float:left;
+	color:white;
+	height:100px;
+	margin-top:35px;
+}
+
+#container{
+	width:90%;
+	margin:15% 5% 0% 5%;
+}
+
+/* Fin Barra*/
+
+/* Cos */
+
+#separador{
+	color:#000;
+	background-color: #000;
+	height:2px;
+	clear:both;
+	width:100%;
+	margin:0;
+}
+
+
+#separador2{
+	color:#000;
+	background-color: #aaa;
+	height:2px;
+	clear:both;
+	width:100%;
+	margin:0;
+}
+
+#nomsep{
+	float:left;
+	text-align:center;
+	width:5%;
+	color:grey;
+}
+
+#info{
+	text-align:center;
+	margin-top:10%;
+}
+
+#final{
+
+}
+
+
+
+/* Finalitzats */
+
+#projecte{
+	float:left;
+	width: 47.5%;
+	height:150px;
+	background-size: cover;
+	background-position: center;
+	border-radius:10px;
+	color:white;
+}
+
+.izq{
+	margin:2.5% 2.5% 0% 0%;
+}
+
+.dcha{
+	margin: 2.5% 0% 2.5% 0%;
+}
+
+/* Finalitzats */
+
+		.imgfons01{
+			background-image: url(../img/portada_/zaltres02.jpg);
+		}
+
+		.imgfons02{
+			background-image: url(../img/portada_/zaltres01.jpg);
+		}
+
+		.imgfons03{
+			background-image: url(../img/portada_/zmoda01.jpg);
+		}
+
+		.imgfons04{
+			background-image: url(../img/portada_/zmoda02.jpg);
+		}
+
+		.imgfons05{
+			background-image: url(../img/portada_/zmultimedia01.jpg);
+		}
+
+		.imgfons06{
+			background-image: url(../img/portada_/zmultimedia02.jpg);
+		}
+
+		.imgfons07{
+			background-image: url(../img/portada_/znegoci01.jpg);
+		}
+
+		.imgfons08{
+			background-image: url(../img/portada_/znegoci02.jpg);
+		}
+
+		.imgfons09{
+			background-image: url(../img/portada_/ztecno01.jpg);
+		}
+
+		.imgfons10{
+			background-image: url(../img/portada_/ztecno02.jpg);
+		}
+
+		.imgfons11{
+			background-image: url(../img/portada_/zverda01.jpg);
+		}
+
+		.imgfons12{
+			background-image: url(../img/portada_/zverda02.jpg);
+		}
+
+#cosproj{
+	width:100%;
+	height:150px;
+	border-radius:10px;
+}
+
+		.color01{
+			background-color: rgba(134, 23, 16, 0.6);
+		}
+
+		.color02{
+			background-color: rgba(119, 18, 49, 0.6);
+		}
+
+		.color03{
+			background-color: rgba(6, 136, 162, 0.6);
+		}
+
+		.color04{
+			background-color: rgba(134, 23, 16, 0.6);
+		}
+
+		.color05{
+			background-color: rgba(28, 49, 58, 0.6);
+		}
+
+		.color06{
+			background-color: rgba(81, 75, 23, 0.6);
+		}
+
+#titprojecte{
+	float:left;
+	margin-top:10px;
+	margin-left:5%;
+	margin-bottom:0;
+}
+
+#descprojecte{
+	float:none;
+	margin-top:25px;
+	margin-left:5%;
+	font-size:1em;
+}
+
+#cont{
+	text-align: center;
+}
+
+#rrss{
+	width: 10%;
+	border-radius:50%;
+	background-size: cover;
+	background-color:cyan;
+	margin: 5% 7% 5% 7%;
+}
+
+#unirchat{
+	float:left;
+	text-align:center;
+	width:47.5%;
+	height:100px;
+	padding:30px;
+	color:white;
+}
+
+.xat{
+	background-color: rgb(244, 152, 17);
+	border-radius: 10px 0 0 10px;
+	margin: 2.5% 2.5% 2.5% 0%;
+}
+
+.unir{
+	background-color: rgb(228, 82, 49);
+	border-radius: 0 10px 10px 0;
+	margin: 2.5% 0% 2.5% 2.5%;
+}
+
+#nouproj{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:100px;
+	height:100px;
+	background-color:rgb(228,82,49);
+	background-image: url(../img/anadir.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius:50px;
+	margin:20px;
+	box-shadow: 0 0 3px black;
+}
+
+/* Final del cos*/
+
+@media screen and (orientation:landscape) { 
+
+	#container{
+	width:90%;
+	margin:8% 5% 0% 5%;
+}
+
+}

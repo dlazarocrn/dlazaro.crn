@@ -1,0 +1,174 @@
+@font-face{
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Raleway";
+}
+
+body{
+	margin:0;
+	font-family: "Raleway";
+	font-size: 1em;
+	color:white;
+	background-color: rgba(166, 157, 145, 0.3);
+}
+
+@font-face{
+	font-family:;
+}
+
+h1{
+	font-size:1.5em;
+}
+
+h2{
+	font-size:1.25em;
+}
+/* Barra Superior */
+
+.centro{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+#barra{
+	height: 50px;
+	width:100%;
+	background-color: #730C0F;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+
+#back{
+	float:left;
+	width:25px;
+	height: 25px;
+	margin:12px 0px 0px 12px;
+}
+
+#titpag{
+	float:left;
+	color:white;
+	height:100px;
+	margin-top:35px;
+}
+
+#config{
+	float:right;
+	widows: 25px;
+	height: 25px;
+	margin: 12px 12px 0px 0px;
+}
+
+/* Fin Barra*/
+
+/* Cos */
+
+#container{
+	width:90%;
+	margin:15% 5% 0% 5%;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+#partes{
+	list-style: none;
+	width:100%;
+	margin: 10% 0% 0% 0%;
+	color:black;
+	text-align:center;
+}
+
+li{
+	color:black;
+	width: 100%;
+	margin: 3% 0%;
+	padding:0;
+}
+
+hr{
+	margin:0;
+	padding:0;
+	width:100%;
+	border: 1px solid #ffffff;
+}
+
+#introinfo{
+	background-color:rgb(228, 225, 222);
+	width:100%;
+	border:0;
+	color:black;
+	text-align:center;
+}
+
+#complementos{
+	width:80%;
+	margin: 2.5% 10% 0% 10%;
+}
+
+#sexe{
+	width:49%;
+	padding:0;
+	float:left;
+	text-align:center;
+}
+
+.home{
+	background-color: rgb(138, 137, 137);
+	margin:2.5% 1% 2.5% 0%;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.dona{
+	background-color: rgb(228, 82, 49);
+	margin:2.5% 0% 2.5% 1%;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#descrip{
+	width:80%;
+	margin: 2.5% 10% 0% 10%;
+	text-align:center;
+	color:black;
+}
+
+#descgust{
+	margin: 8% 0% 0% 0%;
+}
+
+#gustos{
+	margin-top: 0px;
+	width:100%;
+	height:auto;
+	text-align:center;
+	background-color:rgb(228, 225, 222);
+	border: 1px solid rgb(246, 178, 72);
+	border-radius: 5px;
+}
+
+#verif{
+	color:white;
+	background-color: rgb(70, 96, 33);
+	border-radius: 5px;
+}
+
+/* Final del Cos */
+
+@media screen and (orientation:landscape) { 
+
+	#container{
+	width:90%;
+	margin:8% 5% 0% 5%;
+}
+
+}
